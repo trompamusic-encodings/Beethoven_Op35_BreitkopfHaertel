@@ -2762,7 +2762,7 @@
                                 </measure>
                             </section>
                             <ending xml:id="Tema-A1" n="1.">
-                                <measure xml:id="measure-0000000840893230" right="rptend" metcon="false" n="73">
+                                <measure xml:id="measure-0000000840893230" right="rptend" n="73">
                                     <staff xml:id="staff-0000000538705485" n="1">
                                         <layer xml:id="layer-0000001503333358" n="1">
                                             <chord xml:id="chord-0000000198231077" dur="4" stem.dir="up">
@@ -14472,9 +14472,9 @@
                                         </chord>
                                     </layer>
                                 </staff>
-                                <slur xml:id="slur-0000000856525663" startid="#note-0000001921679003" endid="#note-0000000860052414"/>
+                                <slur xml:id="slur-0000000856525663" startid="#note-0000001921679003" endid="#note-0000000860052414" curvedir="above"/>
                                 <slur xml:id="slur-0000001663129006" startid="#chord-0000000202203682" endid="#note-0000000326886304" curvedir="below"/>
-                                <slur xml:id="slur-0000002084969698" startid="#note-0000002079933945" endid="#note-0000000830139644"/>
+                                <slur xml:id="slur-0000002084969698" startid="#note-0000002079933945" endid="#note-0000000830139644" curvedir="below"/>
                                 <dynam xml:id="dynam-0000001010726084" place="below" staff="1" tstamp="1.500000" vgrp="1400">cresc.</dynam>
                             </measure>
                             <sb xml:id="sb-0000001892124452"/>
