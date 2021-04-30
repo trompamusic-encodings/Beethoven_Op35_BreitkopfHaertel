@@ -1,6 +1,9 @@
 ![TROMPA: Towards Richer Online Music Public-domain Archives](https://trompamusic.eu/sites/default/files/top-bar-logo_0_0.png)
 
 # MEI encoding: Eroica Variations (Opus 35) by Ludwig van Beethoven
+[![DOI](https://zenodo.org/badge/225893785.svg)](https://zenodo.org/badge/latestdoi/225893785)
+
+
 
 This repository contains an [MEI](https://music-encoding.org) encoding of [Eroica Variations (Opus 35) by Ludwig van Beethoven, Breitkopf und Härtel edition, 1862–90. Plate B.163.](https://imslp.org/wiki/Special:ReverseLookup/52946) 
 
