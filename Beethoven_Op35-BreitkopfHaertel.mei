@@ -14988,6 +14988,7 @@
                                 <fermata xml:id="fermata-0000001815158534" staff="1" startid="#chord-0000001786220944" form="norm" place="above"/>
                                 <tie xml:id="tie-0000000756824532" startid="#note-0000001298166211" endid="#note-0000000691124372"/>
                                 <fermata xml:id="fermata-0000001288080790" staff="2" startid="#chord-0000001235613546" form="norm" place="above"/>
+                                <slur xml:id="slur-0000001933673187" startid="#chord-0000001538335914" endid="#note-0000000870605101" curvedir="above"/>
                                 <tie xml:id="tie-0000000493174155" startid="#note-0000000293233488" endid="#note-0000000287298888"/>
                                 <tie xml:id="tie-0000001222715399" startid="#note-0000001370046942" endid="#note-0000000813385621"/>
                                 <tie xml:id="tie-0000000906692850" startid="#note-0000001370046940" endid="#note-0000001954210083"/>
@@ -15031,7 +15032,6 @@
                                 </staff>
                                 <slur xml:id="slur-0000000165886214" startid="#chord-0000001095329895" endid="#note-0000001956702592"/>
                                 <dynam xml:id="dynam-0000000348418384" place="below" staff="2" tstamp="1.000000">p</dynam>
-                                <slur xml:id="slur-0000001933673187" startid="#chord-0000001538335914" endid="#note-0000000870605101" curvedir="above"/>
                                 <tie xml:id="tie-0000001533766546" startid="#note-0000001281191213" endid="#note-0000000148721369" curvedir="below"/>
                                 <tie xml:id="tie-0000001768123681" startid="#note-0000000365805952" endid="#note-0000000065123182" curvedir="below"/>
                                 <tie xml:id="tie-0000002123483028" startid="#note-0000000031726730" endid="#note-0000002093207567" curvedir="above"/>
