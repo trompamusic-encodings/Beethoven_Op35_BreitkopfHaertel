@@ -317,9 +317,11 @@
                         <rend xml:id="rend-0000001631646838" halign="center" valign="middle" fontsize="150.00%">
                            <lb xml:id="lb-0000000495749949" />von</rend>
                         <rend xml:id="rend-0000001223265771" halign="center" valign="middle" fontsize="200.00%">
-                           <lb xml:id="lb-0000000931946442" />L.<rend xml:id="rend-0000000420181481" fontsize="130.00%"> VAN </rend> BEETHOVEN.</rend>
+                           <lb xml:id="lb-0000000931946442" />L.<rend xml:id="rend-0000000420181481" fontsize="70.00%"> VAN </rend> BEETHOVEN.</rend>
+                        <rend fontsize="30%"><lb /></rend>
                         <rend xml:id="rend-0000000481651677" halign="center" valign="middle" fontsize="100.00%">
                            <lb xml:id="lb-0000000495749485" />Dem Grafen Moritz von Lichnowsky gewidmet.</rend>
+                        <rend fontsize="30%"><lb /></rend>
                         <rend xml:id="rend-0000001631646840" halign="center" valign="middle" fontsize="100.00%">
                            <lb xml:id="lb-0000000495749951" />Op. 35.</rend>
                      </rend>
