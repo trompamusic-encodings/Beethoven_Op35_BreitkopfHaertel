@@ -15422,6 +15422,7 @@
                               <clef xml:id="clef-0000001834372982" shape="G" line="2" />
                            </layer>
                         </staff>
+                        <slur xml:id="slur-0000000768327394" startid="#chord-0000000014604132" endid="#note-0000000281496068" curvedir="above" />
                         <tie xml:id="tie-0000000112016586" startid="#note-0000000100992755" endid="#note-0000001714007601" />
                         <tie xml:id="tie-0000001467086130" startid="#note-0000000303238131" endid="#note-0000002071046471" />
                         <tie xml:id="tie-0000002056835703" startid="#note-0000002126894393" endid="#note-0000001650268278" curvedir="below" />
@@ -15463,7 +15464,6 @@
                               <clef xml:id="clef-0000000131422879" shape="F" line="4" />
                            </layer>
                         </staff>
-                        <slur xml:id="slur-0000000768327394" startid="#chord-0000000014604132" endid="#note-0000000281496068" curvedir="above" />
                         <tie xml:id="tie-0000000984201042" startid="#note-0000002071046471" endid="#note-0000000691882026" curvedir="below" />
                         <tie xml:id="tie-0000001547863700" startid="#note-0000001650268278" endid="#note-0000001932246105" curvedir="below" />
                         <tie xml:id="tie-0000000256902135" startid="#note-0000000594886343" endid="#note-0000001930302151" />
