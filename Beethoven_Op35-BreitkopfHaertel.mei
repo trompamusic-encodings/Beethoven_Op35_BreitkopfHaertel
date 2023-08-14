@@ -18828,7 +18828,6 @@
                         <slur xml:id="slur-0000001288577634" startid="#chord-0000001027995989" endid="#chord-0000000770183399" curvedir="above" />
                         <tie xml:id="tie-0000000622953289" startid="#note-0000001881745697" endid="#note-0000000250445401" curvedir="below" />
                         <tie xml:id="tie-0000001042672136" startid="#note-0000000873156453" endid="#note-0000001547015608" />
-                        <hairpin xml:id="hairpin-0000001718025726" staff="2" startid="#chord-0000001144145761" endid="#note-0000001547015608" form="dim" place="above" />
                         <slur xml:id="slur-0000000966585743" startid="#chord-0000001301762904" endid="#chord-0000000921441131" curvedir="below" />
                      </measure>
                      <measure xml:id="measure-0000000472280173" n="366">
@@ -19044,7 +19043,6 @@
                         <hairpin xml:id="hairpin-0000000499666820" staff="1" tstamp="5.200000" tstamp2="0m+7.0000" form="dim" place="below" vgrp="1590" />
                         <tie xml:id="tie-0000000936361992" startid="#note-0000000486047379" endid="#note-0000001789468585" curvedir="below" />
                         <tie xml:id="tie-0000000047364287" startid="#note-0000000216649394" endid="#note-0000000268500680" curvedir="above" />
-                        <hairpin xml:id="hairpin-0000001045903566" staff="2" startid="#chord-0000000347174293" endid="#note-0000000268500680" form="dim" place="above" />
                      </measure>
                      <measure xml:id="measure-0000001176988805" n="368">
                         <staff xml:id="staff-0000001701818858" n="1">
