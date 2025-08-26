@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xml:id="mqlc3zy1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xml:id="mqlc3zy1" meiversion="5.1" xmlns="http://www.music-encoding.org/ns/mei">
    <meiHead xml:id="mrz7e611">
       <fileDesc xml:id="fezr89f">
          <titleStmt xml:id="tttn47e1">
@@ -25,9 +25,13 @@
                <name xml:id="name-0000000283256295">Verovio</name>
                <p xml:id="p-0000000080021730">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="aqafoqa" startdate="2025-08-26T12:07:56" version="1.2.8">
+            <application xml:id="aqafoqa" enddate="2025-08-26T12:19:27" startdate="2025-08-26T12:07:56" version="1.2.8">
                <name xml:id="nw4ip4t1">mei-friend</name>
                <p xml:id="pi5tbl4">First edit by mei-friend 1.2.8, 12 August 2025.</p>
+            </application>
+            <application xml:id="mei40To50" version="v1.1">
+               <name xml:id="ntpio2s1">mei40To50.xsl</name>
+               <ptr xml:id="psry3ds1" target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
             </application>
          </appInfo>
       </encodingDesc>
@@ -44,7 +48,7 @@
                   <title xml:id="trz8cxx1">Eroica Variations (Fifteen Variations and a Fugue on a Theme from 'The Creatures of Prometheus' "Eroica")</title>
                   <incip xml:id="isa2vr51">
                      <score xml:id="s8fh4ul1">
-                        <scoreDef xml:id="sejorro2" key.mode="major" key.sig="3f" meter.count="2" meter.unit="4">
+                        <scoreDef xml:id="sejorro2" key.mode="major" keysig="3f" meter.count="2" meter.unit="4">
                            <staffGrp xml:id="s76b7c">
                               <staffDef xml:id="snfs90m1" clef.line="2" clef.shape="G" lines="5" n="1">
                                  <instrDef xml:id="ihsdu4s1" midi.channel="0" midi.instrnum="0" midi.volume="79.00%"/>
@@ -301,6 +305,14 @@
             </seriesStmt>
          </manifestation>
       </manifestationList>
+      <revisionDesc xml:id="rrbrtkb1">
+         <change xml:id="cw0susw1" n="1" resp="#mei40To50">
+            <changeDesc xml:id="ckss03s1">
+               <p xml:id="p1cvsbv2">Converted to MEI version 5.0 using mei40To50.xsl, version 1.1</p>
+            </changeDesc>
+            <date xml:id="dssonbv2" isodate="2025-08-26"/>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="m0vdxpt1">
       <body xml:id="bbx2e4e1">
@@ -322,10 +334,14 @@
                            <lb xml:id="lb-0000000495749949"/>von</rend>
                         <rend xml:id="rend-0000001223265771" fontsize="200.00%" halign="center" valign="middle">
                            <lb xml:id="lb-0000000931946442"/>L.<rend xml:id="rend-0000000420181481" fontsize="70.00%"> VAN </rend> BEETHOVEN.</rend>
-                        <rend xml:id="rgnk7581" fontsize="30%"><lb xml:id="l4uuex21"/></rend>
+                        <rend xml:id="rgnk7581" fontsize="30%">
+                           <lb xml:id="l4uuex21"/>
+                        </rend>
                         <rend xml:id="rend-0000000481651677" fontsize="100.00%" halign="center" valign="middle">
                            <lb xml:id="lb-0000000495749485"/>Dem Grafen Moritz von Lichnowsky gewidmet.</rend>
-                        <rend xml:id="rnkem3p2" fontsize="30%"><lb xml:id="l3d6tew2"/></rend>
+                        <rend xml:id="rnkem3p2" fontsize="30%">
+                           <lb xml:id="l3d6tew2"/>
+                        </rend>
                         <rend xml:id="rend-0000001631646840" fontsize="100.00%" halign="center" valign="middle">
                            <lb xml:id="lb-0000000495749951"/>Op. 35.</rend>
                      </rend>
@@ -333,26 +349,26 @@
                         <lb xml:id="lb-0000000495741234"/>Componirt im Jahre 1802.<lb xml:id="lb-0000000931942345"/>
                      </rend>
                   </pgHead>
-                  <pgFoot xml:id="pgfoot-0000000472217220">
+                  <pgFoot xml:id="pgfoot-0000000472217220" func="first">
                      <rend xml:id="rend-0000000443485032" fontsize="75.00%" halign="left" valign="middle">Original-Verleger: Breitkopf &amp; Härtel in Leipzig.<lb xml:id="lb-0000000931946844"/>
                      </rend>
                      <rend xml:id="rend-0000000423485035" fontsize="75.00%" halign="right" valign="middle">Stich und Druck von Breitkopf &amp; Härtel in Leipzig.<lb xml:id="lb-0000000931946804"/>
                      </rend>
                      <rend xml:id="rend-0000001325220316" fontsize="100.00%" halign="center">B.163.</rend>
                   </pgFoot>
-                  <pgFoot2 xml:id="pgfoot2-0000001694763880">
+                  <pgFoot xml:id="pgfoot2-0000001694763880" func="all">
                      <rend xml:id="rend-0000001820920999" halign="center" valign="bottom">
                         <rend xml:id="rend-0000000429776796" fontsize="100.00%">B.163.</rend>
                      </rend>
-                  </pgFoot2>
+                  </pgFoot>
                   <staffGrp xml:id="staff-0000000057144285" bar.thru="true" symbol="brace">
                      <label xml:id="l6f20z1">
                         <rend xml:id="rend-0000000409125111" fontsize="112.00%" fontweight="bold" halign="center">INTRODUZIONE<lb xml:id="la032rq"/>col Basso del Tema.</rend>
                      </label>
-                     <staffDef xml:id="staff-0000000247540890" clef.line="2" clef.shape="G" key.mode="major" key.sig="3f" lines="5" meter.count="2" meter.unit="4" n="1">
+                     <staffDef xml:id="staff-0000000247540890" clef.line="2" clef.shape="G" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4" n="1">
                         <instrDef xml:id="instr-0000000325454720" midi.channel="0" midi.instrnum="0" midi.volume="78.00%"/>
                      </staffDef>
-                     <staffDef xml:id="staff-0000000685616976" clef.line="4" clef.shape="F" key.mode="major" key.sig="3f" lines="5" meter.count="2" meter.unit="4" n="2">
+                     <staffDef xml:id="staff-0000000685616976" clef.line="4" clef.shape="F" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4" n="2">
                         <instrDef xml:id="instr-0000000103380407" midi.channel="1" midi.instrnum="0" midi.volume="78.00%"/>
                      </staffDef>
                   </staffGrp>
@@ -14417,7 +14433,7 @@
                      <sb xml:id="sb-0000000278245748"/>
                   </section>
                   <section xml:id="Var-XIV" label="Var. XIV" restart="true">
-                     <scoreDef xml:id="scoredef-0000000727032933" key.mode="minor" key.sig="6f">
+                     <scoreDef xml:id="scoredef-0000000727032933" key.mode="minor" keysig="6f">
                         <staffGrp xml:id="snji3fu">
                            <label xml:id="lfbo4pp">
                               <rend xml:id="r906sys" fontsize="112.00%" fontweight="bold">VAR. XIV.<lb xml:id="lewpfnh"/>Minore.</rend>
@@ -15563,7 +15579,7 @@
                      <sb xml:id="sb-0000001423307577"/>
                   </section>
                   <section xml:id="Var-XV" label="Var. XV" restart="true">
-                     <scoreDef xml:id="scoredef-0000002009651291" key.mode="major" key.sig="3f" meter.count="6" meter.unit="8">
+                     <scoreDef xml:id="scoredef-0000002009651291" key.mode="major" keysig="3f" meter.count="6" meter.unit="8">
                         <staffGrp xml:id="sbw1ihr">
                            <label xml:id="lsu19oq">
                               <rend xml:id="r1y7bop" fontsize="112.00%" fontweight="bold">VAR. XV.<lb xml:id="ljogszb"/>Maggiore.</rend>
