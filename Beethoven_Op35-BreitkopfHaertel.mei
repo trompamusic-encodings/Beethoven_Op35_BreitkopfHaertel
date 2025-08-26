@@ -302,7 +302,7 @@
       <body>
          <mdiv xml:id="mdiv-0000000167962608">
             <score xml:id="score-0000000147575441">
-               <scoreDef xml:id="score-0000000370791336" midi.bpm="108.000000">
+               <scoreDef xml:id="score-0000000370791336" midi.bpm="108">
                   <pgHead xml:id="pghead-0000002045266725">
                      <rend xml:id="rend-0000000423485031" halign="left" valign="middle" fontsize="100.00%">Beethovens Werke.<lb xml:id="lb-0000000931946803" />
                      </rend>
@@ -777,6 +777,8 @@
                         <sb xml:id="sb-0000001572742279" />
                      </section>
                      <section xml:id="A-due" restart="true" label="A due">
+                        <expansion plist="#A-due-A #A-due-A #A-due-B #A-due-B" xml:id="expansion-A-due-full" />
+                        <expansion plist="#A-due-A #A-due-B" xml:id="expansion-A-due-minimal" />
                         <scoreDef xml:id="score-0000000291782016" meter.count="2" meter.unit="4">
                            <staffGrp xml:id="sry51ev">
                               <label xml:id="lleye1e">
@@ -786,8 +788,6 @@
                               <staffDef xml:id="spcn0qb" n="2" />
                            </staffGrp>
                         </scoreDef>
-                        <expansion plist="#A-due-A #A-due-A #A-due-B #A-due-B" xml:id="expansion-A-due-full" />
-                        <expansion plist="#A-due-A #A-due-B" xml:id="expansion-A-due-minimal" />
                         <section xml:id="A-due-A">
                            <measure xml:id="measure-0000000042504469" metcon="false" n="17">
                               <staff xml:id="staff-0000000533890552" n="1">
@@ -1188,6 +1188,8 @@
                         </section>
                      </section>
                      <section xml:id="A-tre" restart="true" label="A tre">
+                        <expansion plist="#A-tre-A #A-tre-A #A-tre-B #A-tre-B" xml:id="expansion-A-tre-full" />
+                        <expansion plist="#A-tre-A #A-tre-B" xml:id="expansion-A-tre-minimal" />
                         <scoreDef xml:id="ssgcbip">
                            <staffGrp xml:id="s2jvurr">
                               <label xml:id="ljc31ce">
@@ -1197,8 +1199,6 @@
                               <staffDef xml:id="s2cti7q" n="2" />
                            </staffGrp>
                         </scoreDef>
-                        <expansion plist="#A-tre-A #A-tre-A #A-tre-B #A-tre-B" xml:id="expansion-A-tre-full" />
-                        <expansion plist="#A-tre-A #A-tre-B" xml:id="expansion-A-tre-minimal" />
                         <section xml:id="A-tre-A">
                            <measure xml:id="measure-0000000767580922" metcon="false" n="33">
                               <staff xml:id="staff-0000001245688602" n="1">
@@ -3172,6 +3172,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-I" restart="true" label="Var. I">
+                     <expansion plist="#Var-I-A #Var-I-A #Var-I-B #Var-I-B" xml:id="expansion-VarI-full" />
+                     <expansion plist="#Var-I-A #Var-I-B" xml:id="expansion-VarI-minimal" />
                      <scoreDef xml:id="s69qzut">
                         <staffGrp xml:id="s781o63">
                            <label xml:id="l9w4y01">
@@ -3181,8 +3183,6 @@
                            <staffDef xml:id="sp09a2d" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-I-A #Var-I-A #Var-I-B #Var-I-B" xml:id="expansion-VarI-full" />
-                     <expansion plist="#Var-I-A #Var-I-B" xml:id="expansion-VarI-minimal" />
                      <section xml:id="Var-I-A">
                         <scoreDef xml:id="scoredef-0000001571818645" meter.count="2" meter.unit="4" />
                         <measure xml:id="measure-0000001517445234" metcon="false" n="81">
@@ -3867,6 +3867,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-II" restart="true" label="Var. II">
+                     <expansion plist="#Var-II-A #Var-II-A #Var-II-B #Var-II-B" xml:id="expansion-VarII-full" />
+                     <expansion plist="#Var-II-A #Var-II-B" xml:id="expansion-VarII-minimal" />
                      <scoreDef xml:id="so0l2f2">
                         <staffGrp xml:id="simiggj">
                            <label xml:id="ljbn7pu">
@@ -3876,8 +3878,6 @@
                            <staffDef xml:id="sr6xmuk" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-II-A #Var-II-A #Var-II-B #Var-II-B" xml:id="expansion-VarII-full" />
-                     <expansion plist="#Var-II-A #Var-II-B" xml:id="expansion-VarII-minimal" />
                      <section xml:id="Var-II-A">
                         <measure xml:id="measure-0000001188504905" metcon="false" n="97">
                            <staff xml:id="staff-0000001441567708" n="1">
@@ -4831,6 +4831,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-III" restart="true" label="Var. III">
+                     <expansion plist="#Var-III-A #Var-III-A #Var-III-B #Var-III-B" xml:id="expansion-VarIII-full" />
+                     <expansion plist="#Var-III-A #Var-III-B" xml:id="expansion-VarIII-minimal" />
                      <scoreDef xml:id="smpkdxl">
                         <staffGrp xml:id="sreue6r">
                            <label xml:id="lltmpik">
@@ -4840,8 +4842,6 @@
                            <staffDef xml:id="str6j1k" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-III-A #Var-III-A #Var-III-B #Var-III-B" xml:id="expansion-VarIII-full" />
-                     <expansion plist="#Var-III-A #Var-III-B" xml:id="expansion-VarIII-minimal" />
                      <section xml:id="Var-III-A">
                         <measure xml:id="measure-0000000708709675" metcon="false" n="113">
                            <staff xml:id="staff-0000000512698354" n="1">
@@ -5727,6 +5727,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-IV" restart="true" label="Var. IV">
+                     <expansion plist="#Var-IV-Upbeat #Var-IV-A #Var-IV-A1 #Var-IV-A #Var-IV-A2 #Var-IV-B #Var-IV-B1 #Var-IV-B #Var-IV-B2" xml:id="expansion-VarIV-full" />
+                     <expansion plist="#Var-IV-Upbeat #Var-IV-A #Var-IV-A2 #Var-IV-B #Var-IV-B2" xml:id="expansion-VarIV-minimal" />
                      <scoreDef xml:id="spq08jy">
                         <staffGrp xml:id="spo2h0g">
                            <label xml:id="lvcc3vi">
@@ -5736,8 +5738,6 @@
                            <staffDef xml:id="s9gzqlo" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-IV-Upbeat #Var-IV-A #Var-IV-A1 #Var-IV-A #Var-IV-A2 #Var-IV-B #Var-IV-B1 #Var-IV-B #Var-IV-B2" xml:id="expansion-VarIV-full" />
-                     <expansion plist="#Var-IV-Upbeat #Var-IV-A #Var-IV-A2 #Var-IV-B #Var-IV-B2" xml:id="expansion-VarIV-minimal" />
                      <section xml:id="Var-IV-Upbeat">
                         <measure xml:id="measure-0000001038248142" metcon="false" n="129">
                            <staff xml:id="staff-0000002036890735" n="1">
@@ -6422,6 +6422,8 @@
                      <pb xml:id="pb-0000001991522880" />
                   </section>
                   <section xml:id="Var-V" restart="true" label="Var. V">
+                     <expansion plist="#Var-V-A #Var-V-A #Var-V-B #Var-V-B" xml:id="expansion-VarV-full" />
+                     <expansion plist="#Var-V-A #Var-V-B" xml:id="expansion-VarV-minimal" />
                      <scoreDef xml:id="sbw4xk1">
                         <staffGrp xml:id="szgvw2x">
                            <label xml:id="l3ve8t7">
@@ -6431,8 +6433,6 @@
                            <staffDef xml:id="sf9gu7w" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-V-A #Var-V-A #Var-V-B #Var-V-B" xml:id="expansion-VarV-full" />
-                     <expansion plist="#Var-V-A #Var-V-B" xml:id="expansion-VarV-minimal" />
                      <section xml:id="Var-V-A">
                         <measure xml:id="measure-0000001760255021" metcon="false" n="144">
                            <staff xml:id="staff-0000001778654271" n="1">
@@ -6912,6 +6912,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-VI" restart="true" label="Var. VI">
+                     <expansion plist="#Var-VI-A #Var-VI-A #Var-VI-B" xml:id="expansion-VarVI-full" />
+                     <expansion plist="#Var-VI-A #Var-VI-B" xml:id="expansion-VarVI-minimal" />
                      <scoreDef xml:id="s1knuuk">
                         <staffGrp xml:id="s7hj1df">
                            <label xml:id="lq8t136">
@@ -6921,8 +6923,6 @@
                            <staffDef xml:id="sj0w1q2" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-VI-A #Var-VI-A #Var-VI-B" xml:id="expansion-VarVI-full" />
-                     <expansion plist="#Var-VI-A #Var-VI-B" xml:id="expansion-VarVI-minimal" />
                      <section xml:id="Var-VI-A">
                         <measure xml:id="measure-0000001220812608" metcon="false" n="160">
                            <staff xml:id="staff-0000000051357576" n="1">
@@ -7966,6 +7966,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-VII" restart="true" label="Var. VII">
+                     <expansion plist="#Var-VII-Upbeat #Var-VII-A #Var-VII-A1 #Var-VII-A #Var-VII-A2 #Var-VII-B #Var-VII-B" xml:id="expansion-VarVII-full" />
+                     <expansion plist="#Var-VII-Upbeat #Var-VII-A #Var-VII-A2 #Var-VII-B" xml:id="expansion-VarVII-minimal" />
                      <scoreDef xml:id="s7mw9k">
                         <staffGrp xml:id="sdaq4rv">
                            <label xml:id="l8rqxjj">
@@ -7975,8 +7977,6 @@
                            <staffDef xml:id="sjjpsjj" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-VII-Upbeat #Var-VII-A #Var-VII-A1 #Var-VII-A #Var-VII-A2 #Var-VII-B #Var-VII-B" xml:id="expansion-VarVII-full" />
-                     <expansion plist="#Var-VII-Upbeat #Var-VII-A #Var-VII-A2 #Var-VII-B" xml:id="expansion-VarVII-minimal" />
                      <section xml:id="Var-VII-Upbeat">
                         <scoreDef xml:id="scoredef-0000002143762414" meter.count="2" meter.unit="4" />
                         <measure xml:id="measure-0000000695257355" n="185">
@@ -8660,6 +8660,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-VIII" restart="true" label="Var. VIII">
+                     <expansion plist="#Var-VIII-Upbeat #Var-VIII-A #Var-VIII-A1 #Var-VIII-A #Var-VIII-A2 #Var-VIII-B #Var-VIII-B1 #Var-VIII-B #Var-VIII-B2" xml:id="expansion-VarVIII-full" />
+                     <expansion plist="#Var-VIII-Upbeat #Var-VIII-A #Var-VIII-A2 #Var-VIII-B #Var-VIII-B2" xml:id="expansion-VarVIII-minimal" />
                      <scoreDef xml:id="slrt4ca">
                         <staffGrp xml:id="sqt84tk">
                            <label xml:id="luk4l1n">
@@ -8669,8 +8671,6 @@
                            <staffDef xml:id="s9m278n" n="2" clef.shape="F" clef.line="4" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-VIII-Upbeat #Var-VIII-A #Var-VIII-A1 #Var-VIII-A #Var-VIII-A2 #Var-VIII-B #Var-VIII-B1 #Var-VIII-B #Var-VIII-B2" xml:id="expansion-VarVIII-full" />
-                     <expansion plist="#Var-VIII-Upbeat #Var-VIII-A #Var-VIII-A2 #Var-VIII-B #Var-VIII-B2" xml:id="expansion-VarVIII-minimal" />
                      <section xml:id="Var-VIII-Upbeat">
                         <measure xml:id="measure-0000002032187623" metcon="false" n="200">
                            <staff xml:id="staff-0000001496595534" n="1">
@@ -9326,6 +9326,8 @@
                      <pb xml:id="pb-0000000719195500" />
                   </section>
                   <section xml:id="Var-IX" restart="true" label="Var. IX">
+                     <expansion plist="#Var-IX-Upbeats #Var-IX-A #Var-IX-A1 #Var-IX-A #Var-IX-A2 #Var-IX-B #Var-IX-B1 #Var-IX-B #Var-IX-B2" xml:id="expansion-VarIX-full" />
+                     <expansion plist="#Var-IX-Upbeats #Var-IX-A #Var-IX-A2 #Var-IX-B #Var-IX-B2" xml:id="expansion-VarIX-minimal" />
                      <scoreDef xml:id="srre98v">
                         <staffGrp xml:id="s3hrehu">
                            <label xml:id="lxxd8ya">
@@ -9335,8 +9337,6 @@
                            <staffDef xml:id="savv0e8" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-IX-Upbeats #Var-IX-A #Var-IX-A1 #Var-IX-A #Var-IX-A2 #Var-IX-B #Var-IX-B1 #Var-IX-B #Var-IX-B2" xml:id="expansion-VarIX-full" />
-                     <expansion plist="#Var-IX-Upbeats #Var-IX-A #Var-IX-A2 #Var-IX-B #Var-IX-B2" xml:id="expansion-VarIX-minimal" />
                      <section xml:id="Var-IX-Upbeats">
                         <scoreDef xml:id="scoredef-0000000167876754" meter.count="2" meter.unit="4" />
                         <measure xml:id="measure-0000001762593201" metcon="false" n="217">
@@ -10323,6 +10323,8 @@
                      <sb xml:id="sb-0000000928874448" />
                   </section>
                   <section xml:id="Var-X" restart="true" label="Var. X">
+                     <expansion plist="#Var-X-Upbeat #Var-X-A #Var-X-A1 #Var-X-A #Var-X-A2 #Var-X-B #Var-X-B1 #Var-X-B #Var-X-B2" xml:id="expansion-VarX-full" />
+                     <expansion plist="#Var-X-Upbeat #Var-X-A #Var-X-A2 #Var-X-B #Var-X-B2" xml:id="expansion-VarX-minimal" />
                      <scoreDef xml:id="scdg2f8">
                         <staffGrp xml:id="sth0dfa">
                            <label xml:id="l7x5ur4">
@@ -10332,8 +10334,6 @@
                            <staffDef xml:id="sxclow1" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-X-Upbeat #Var-X-A #Var-X-A1 #Var-X-A #Var-X-A2 #Var-X-B #Var-X-B1 #Var-X-B #Var-X-B2" xml:id="expansion-VarX-full" />
-                     <expansion plist="#Var-X-Upbeat #Var-X-A #Var-X-A2 #Var-X-B #Var-X-B2" xml:id="expansion-VarX-minimal" />
                      <section xml:id="Var-X-Upbeat">
                         <measure xml:id="measure-0000000758405353" metcon="false" n="233">
                            <staff xml:id="staff-0000000631516171" n="1">
@@ -11093,6 +11093,8 @@
                      <pb xml:id="pb-0000000029829489" />
                   </section>
                   <section xml:id="Var-XI" restart="true" label="Var. XI">
+                     <expansion plist="#Var-XI-Upbeats #Var-XI-A #Var-XI-A1 #Var-XI-A #Var-XI-A2 #Var-XI-B #Var-XI-B1 #Var-XI-B #Var-XI-B2" xml:id="expansion-VarXI-full" />
+                     <expansion plist="#Var-XI-Upbeats #Var-XI-A #Var-XI-A2 #Var-XI-B #Var-XI-B2" xml:id="expansion-VarXI-minimal" />
                      <scoreDef xml:id="s283ozi">
                         <staffGrp xml:id="savuuf9">
                            <label xml:id="l5kruwq">
@@ -11102,8 +11104,6 @@
                            <staffDef xml:id="se29uky" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-XI-Upbeats #Var-XI-A #Var-XI-A1 #Var-XI-A #Var-XI-A2 #Var-XI-B #Var-XI-B1 #Var-XI-B #Var-XI-B2" xml:id="expansion-VarXI-full" />
-                     <expansion plist="#Var-XI-Upbeats #Var-XI-A #Var-XI-A2 #Var-XI-B #Var-XI-B2" xml:id="expansion-VarXI-minimal" />
                      <section xml:id="Var-XI-Upbeats">
                         <scoreDef xml:id="scoredef-0000000228650656" meter.count="2" meter.unit="4" />
                         <measure xml:id="measure-0000000372728461" metcon="false" n="249">
@@ -11987,6 +11987,8 @@
                      </ending>
                   </section>
                   <section xml:id="Var-XII" restart="true" label="Var. XII">
+                     <expansion plist="#Var-XII-A #Var-XII-A #Var-XII-B #Var-XII-B" xml:id="expansion-VarXII-full" />
+                     <expansion plist="#Var-XII-A #Var-XII-B" xml:id="expansion-VarXII-minimal" />
                      <scoreDef xml:id="sizswqz">
                         <staffGrp xml:id="su010kd">
                            <label xml:id="l51o5rk">
@@ -11996,8 +11998,6 @@
                            <staffDef xml:id="swwkqku" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-XII-A #Var-XII-A #Var-XII-B #Var-XII-B" xml:id="expansion-VarXII-full" />
-                     <expansion plist="#Var-XII-A #Var-XII-B" xml:id="expansion-VarXII-minimal" />
                      <section xml:id="Var-XII-A">
                         <measure xml:id="measure-0000000061154236" n="266">
                            <staff xml:id="staff-0000000059866317" n="1">
@@ -12977,6 +12977,8 @@
                      </section>
                   </section>
                   <section xml:id="Var-XIII" restart="true" label="Var. XIII">
+                     <expansion plist="#Var-XIII-Upbeat #Var-XIII-A #Var-XIII-A1 #Var-XIII-A #Var-XIII-A2 #Var-XIII-B #Var-XIII-B1 #Var-XIII-B #Var-XIII-B2" xml:id="expansion-VarXIII-full" />
+                     <expansion plist="#Var-XIII-Upbeat #Var-XIII-A #Var-XIII-A2 #Var-XIII-B #Var-XIII-B2" xml:id="expansion-VarXIII-minimal" />
                      <scoreDef xml:id="s1k7utj">
                         <staffGrp xml:id="spfvn65">
                            <label xml:id="lqglly0">
@@ -12986,8 +12988,6 @@
                            <staffDef xml:id="spvq0af" n="2" />
                         </staffGrp>
                      </scoreDef>
-                     <expansion plist="#Var-XIII-Upbeat #Var-XIII-A #Var-XIII-A1 #Var-XIII-A #Var-XIII-A2 #Var-XIII-B #Var-XIII-B1 #Var-XIII-B #Var-XIII-B2" xml:id="expansion-VarXIII-full" />
-                     <expansion plist="#Var-XIII-Upbeat #Var-XIII-A #Var-XIII-A2 #Var-XIII-B #Var-XIII-B2" xml:id="expansion-VarXIII-minimal" />
                      <section xml:id="Var-XIII-Upbeat">
                         <scoreDef xml:id="scoredef-0000000308948375" meter.count="2" meter.unit="4" />
                         <measure xml:id="measure-0000001395586540" metcon="false" n="282">
