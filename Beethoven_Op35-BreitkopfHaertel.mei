@@ -319,7 +319,7 @@
          <mdiv xml:id="mdiv-0000000167962608">
             <score xml:id="score-0000000147575441">
                <scoreDef xml:id="score-0000000370791336" midi.bpm="108">
-                  <pgHead xml:id="pghead-0000002045266725">
+                  <pgHead xml:id="pghead-0000002045266725" func="first">
                      <rend xml:id="rend-0000000423485031" fontsize="100.00%" halign="left" valign="middle">Beethovens Werke.<lb xml:id="lb-0000000931946803"/>
                      </rend>
                      <rend xml:id="rend-0000000423485032" fontsize="100.00%" halign="right" valign="middle">Serie 17. <abbr xml:id="aaufgvh" type="superscription">No.</abbr> 163.<lb xml:id="lb-0000000931946807"/>
@@ -810,8 +810,8 @@
                               <label xml:id="lleye1e">
                                  <rend xml:id="rpqdsx1" fontsize="112.00%" fontweight="bold">A DUE.</rend>
                               </label>
-                              <staffDef xml:id="syzxsml" n="1"/>
-                              <staffDef xml:id="spcn0qb" n="2"/>
+                              <staffDef xml:id="syzxsml" clef.line="2" clef.shape="G" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4"  n="1"/>
+                              <staffDef xml:id="spcn0qb" clef.line="4" clef.shape="F" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4"  n="2"/>
                            </staffGrp>
                         </scoreDef>
                         <section xml:id="A-due-A">
@@ -8330,7 +8330,7 @@
                            </staff>
                            <staff xml:id="staff-0000001807898745" n="2">
                               <layer xml:id="layer-0000001521254406" n="1">
-                                 <clef xml:id="clef-0000000193964003" line="4" shape="F" visible="false"/>
+                                 <clef xml:id="clef-0000000193964003" line="4" shape="F"/>
                                  <beam xml:id="beam-0000001311236583">
                                     <note xml:id="note-0000000133864231" dur="8" oct="3" pname="d" stem.dir="down">
                                        <artic xml:id="artic-0000002095694481" artic="stacc"/>
@@ -9359,8 +9359,8 @@
                            <label xml:id="lxxd8ya">
                               <rend xml:id="royxqx6" fontsize="112.00%" fontweight="bold">VAR. IX.</rend>
                            </label>
-                           <staffDef xml:id="sfzmesv" n="1"/>
-                           <staffDef xml:id="savv0e8" n="2"/>
+                           <staffDef xml:id="sfzmesv" clef.line="2" clef.shape="G" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4"  n="1"/>
+                           <staffDef xml:id="savv0e8" clef.line="4" clef.shape="F" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4" n="2"/>
                         </staffGrp>
                      </scoreDef>
                      <section xml:id="Var-IX-Upbeats">
@@ -12020,8 +12020,8 @@
                            <label xml:id="l51o5rk">
                               <rend xml:id="r9zdixb" fontsize="112.00%" fontweight="bold">VAR. XII.</rend>
                            </label>
-                           <staffDef xml:id="skmszek" n="1"/>
-                           <staffDef xml:id="swwkqku" n="2"/>
+                           <staffDef xml:id="skmszek" clef.line="2" clef.shape="G" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4"  n="1"/>
+                           <staffDef xml:id="swwkqku" clef.line="4" clef.shape="F" key.mode="major" keysig="3f" lines="5" meter.count="2" meter.unit="4"  n="2"/>
                         </staffGrp>
                      </scoreDef>
                      <section xml:id="Var-XII-A">
@@ -15108,7 +15108,7 @@
                               <note xml:id="note-0000000870605101" accid.ges="f" dur="8" oct="4" pname="e" stem.dir="up">
                                  <artic xml:id="artic-0000001771114441" artic="stacc" place="above"/>
                               </note>
-                              <clef xml:id="clef-0000000849578820" line="2" shape="G" visible="false"/>
+                              <clef xml:id="clef-0000000849578820" line="2" shape="G"/>
                               <chord xml:id="chord-0000001095329895" dur="8" stem.dir="up">
                                  <note xml:id="note-0000001281191213" oct="4" pname="f">
                                     <accid xml:id="accid-0000000465390991" accid="f"/>
