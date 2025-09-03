@@ -25,7 +25,7 @@
                <name xml:id="name-0000000283256295">Verovio</name>
                <p xml:id="p-0000000080021730">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="aqafoqa" enddate="2025-08-26T12:19:27" startdate="2025-08-26T12:07:56" version="1.2.8">
+            <application xml:id="aqafoqa" enddate="2025-09-03T12:13:03" startdate="2025-08-26T12:07:56" version="1.2.8">
                <name xml:id="nw4ip4t1">mei-friend</name>
                <p xml:id="pi5tbl4">First edit by mei-friend 1.2.8, 12 August 2025.</p>
             </application>
@@ -404,7 +404,7 @@
                            <dir xml:id="dir-0000001807251752" place="above" staff="1" tstamp="0.200000">
                               <rend xml:id="rend-0000001127915164" fontsize="112.00%" fontstyle="normal" fontweight="normal" halign="left">Allegretto vivace.</rend>
                            </dir>
-                           <dynam xml:id="dynam-0000000173943528" place="below" staff="1" startid="#chord-0000000318230848" vgrp="50">ff</dynam>
+                           <dynam xml:id="dynam-0000000173943528" place="between" staff="1 2" startid="#chord-0000000318230848" vgrp="50">ff</dynam>
                            <fermata xml:id="fermata-0000000595056252" form="norm" place="above" staff="1" startid="#chord-0000000318230848"/>
                            <fermata xml:id="fermata-0000000248629640" form="norm" place="above" staff="2" startid="#chord-0000000379879500"/>
                         </measure>
@@ -427,7 +427,7 @@
                                     </chord>
                                  </layer>
                               </staff>
-                              <dynam xml:id="dynam-0000000241363726" place="below" staff="1" startid="#note-0000000145975647" vgrp="50">pp</dynam>
+                              <dynam xml:id="dynam-0000000241363726" place="between" staff="1 2" startid="#note-0000000145975647" vgrp="50">pp</dynam>
                            </measure>
                            <measure xml:id="measure-0000000339971934" n="3">
                               <staff xml:id="staff-0000000167566855" n="1">
@@ -605,14 +605,17 @@
                            <measure xml:id="measure-0000000036583896" left="rptstart" n="10">
                               <staff xml:id="staff-0000000194673336" n="1">
                                  <layer xml:id="layer-0000000290155370" n="1">
-                                    <mRest xml:id="m-0000000546881856" dur="1"/>
+                                    <mRest xml:id="mrest-0000000546881856" dur="1"/>
                                  </layer>
                               </staff>
                               <staff xml:id="staff-0000000431055625" n="2">
                                  <layer xml:id="layer-0000000035426963" n="1">
-                                    <multiRest xml:id="multirest-0000001986392665" num="1"/>
+                                    <mRest xml:id="mrest-0000001986392665"/>
                                  </layer>
                               </staff>
+                              <dir xml:id="dn65p311" place="between" staff="1" startid="#mrest-0000000546881856">
+                                 <rend xml:id="rfgzdew2" fontsize="x-large" fontstyle="normal" fontweight="bold" halign="center">1</rend>
+                              </dir>
                            </measure>
                            <measure xml:id="measure-0000000259990128" n="11">
                               <staff xml:id="staff-0000000068711937" n="1">
@@ -656,14 +659,17 @@
                            <measure xml:id="measure-0000000004003658" n="12">
                               <staff xml:id="staff-0000000837431910" n="1">
                                  <layer xml:id="layer-0000000009218573" n="1">
-                                    <mRest xml:id="m-0000000101757516" dur="1"/>
+                                    <mRest xml:id="mrest-0000000101757516" dur="1"/>
                                  </layer>
                               </staff>
                               <staff xml:id="staff-0000000594079332" n="2">
                                  <layer xml:id="layer-0000000363036828" n="1">
-                                    <multiRest xml:id="multirest-0000000002553703" num="1"/>
+                                    <mRest xml:id="mrest-0000000002553703"/>
                                  </layer>
                               </staff>
+                              <dir xml:id="duj6qdl1" place="between" staff="1" startid="#mrest-0000000101757516">
+                                 <rend xml:id="r16ry551" fontsize="x-large" fontstyle="normal" fontweight="bold" halign="center">1</rend>
+                              </dir>
                            </measure>
                            <measure xml:id="measure-0000000179169375" n="13">
                               <staff xml:id="staff-0000000295350676" n="1">
