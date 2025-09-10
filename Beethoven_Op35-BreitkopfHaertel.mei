@@ -25,7 +25,7 @@
                <name xml:id="name-0000000283256295">Verovio</name>
                <p xml:id="p-0000000080021730">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="aqafoqa" enddate="2025-09-03T12:13:03" startdate="2025-08-26T12:07:56" version="1.2.8">
+            <application xml:id="aqafoqa" enddate="2025-09-10T10:42:38" startdate="2025-08-26T12:07:56" version="1.2.8">
                <name xml:id="nw4ip4t1">mei-friend</name>
                <p xml:id="pi5tbl4">First edit by mei-friend 1.2.8, 12 August 2025.</p>
             </application>
@@ -6732,7 +6732,7 @@
                                  <beam xml:id="beam-0000001800125070">
                                     <note xml:id="note-0000001150941456" dur="8" oct="3" pname="f" stem.dir="down"/>
                                     <note xml:id="note-0000000809944550" dur="8" oct="3" pname="d" stem.dir="down"/>
-                                    <note xml:id="note-0000000913871545" accid.ges="f" dur="8" oct="2" pname="b" stem.dir="up"/>
+                                    <note xml:id="note-0000000913871545" accid.ges="f" dur="8" oct="2" pname="b" stem.dir="down"/>
                                  </beam>
                                  <note xml:id="note-0000001140510448" accid.ges="f" dur="8" oct="2" pname="b" stem.dir="up"/>
                               </layer>
@@ -6903,7 +6903,6 @@
                               </layer>
                            </staff>
                            <dynam xml:id="dynam-0000000060269057" place="below" staff="1" startid="#note-0000001222958896">p</dynam>
-                           <tie xml:id="tie-0000002054303300" endid="#note-0000000079104669" startid="#note-0000000509215993"/>
                            <tie xml:id="tie-0000000499051150" endid="#note-0000001614648755" startid="#note-0000000774351908"/>
                            <tie xml:id="tie-0000001065665855" endid="#note-0000001460028453" startid="#note-0000000165689831"/>
                            <slur xml:id="slur-0000000811471669" endid="#note-0000000421077139" startid="#note-0000000165689831"/>
